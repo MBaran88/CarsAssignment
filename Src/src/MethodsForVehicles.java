@@ -20,4 +20,26 @@ public class MethodsForVehicles {
         this.latitude = latitude;
         this.longitude = longitude;
     }
+    // Getters for vehicles' attributes
+    public String getBrand(){
+        return brand;
+    }
+    public double getWeight(){
+        return weight;
+    }
+    public double getMileage(){
+        return mileage;
+    }
+    public String getDriver(){
+        return driver;
+    }
+    public String getRegNumber(){
+        return regNumber;
+    }
+    public double getLatitude(){
+        return latitude;
+    }
+    public double getLongitude(){
+        return longitude;
+    }
 }
