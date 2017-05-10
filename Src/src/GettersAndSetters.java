@@ -1,7 +1,7 @@
 /**
  * Created by Zdzibson on 2017-05-10.
  */
-public class MethodsForVehicles {
+public class GettersAndSetters {
     private String brand;
     private double weight;
     private double mileage;
@@ -11,7 +11,7 @@ public class MethodsForVehicles {
     private double longitude;
 
 
-    public MethodsForVehicles(String brand, double weight, double mileage, String driver, String regNumber, double latitude, double longitude) {
+    public GettersAndSetters(String brand, double weight, double mileage, String driver, String regNumber, double latitude, double longitude) {
         this.brand = brand;
         this.weight = weight;
         this.mileage = mileage;
@@ -20,26 +20,43 @@ public class MethodsForVehicles {
         this.latitude = latitude;
         this.longitude = longitude;
     }
+
     // Getters for vehicles' attributes
-    public String getBrand(){
+
+    public String getBrand() {
         return brand;
     }
-    public double getWeight(){
+
+    public double getWeight() {
         return weight;
     }
-    public double getMileage(){
+
+    public double getMileage() {
         return mileage;
     }
-    public String getDriver(){
+
+    public String getDriver() {
         return driver;
     }
-    public String getRegNumber(){
+
+    public String getRegNumber() {
         return regNumber;
     }
-    public double getLatitude(){
+
+    public double getLatitude() {
         return latitude;
     }
-    public double getLongitude(){
+
+    public double getLongitude() {
         return longitude;
+    }
+
+    // Setters for vehicles' attributes
+
+    public void setLatitude() {
+        this.latitude = latitude;
+    }
+    public void setLongitude(){
+        this.longitude = longitude;
     }
 }
